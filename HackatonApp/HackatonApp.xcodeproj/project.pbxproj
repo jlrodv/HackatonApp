@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A012B32019F410DA00C938A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A012B31F19F410DA00C938A7 /* main.m */; };
+		A012B32319F410DA00C938A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A012B32219F410DA00C938A7 /* AppDelegate.m */; };
+		A012B32619F410DA00C938A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A012B32519F410DA00C938A7 /* FirstViewController.m */; };
+		A012B32919F410DA00C938A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A012B32819F410DA00C938A7 /* SecondViewController.m */; };
+		A012B32C19F410DA00C938A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A012B32A19F410DA00C938A7 /* Main.storyboard */; };
+		A012B32E19F410DA00C938A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A012B32D19F410DA00C938A7 /* Images.xcassets */; };
+		A012B33119F410DA00C938A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A012B32F19F410DA00C938A7 /* LaunchScreen.xib */; };
+		A012B33D19F410DA00C938A7 /* HackatonAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A012B33C19F410DA00C938A7 /* HackatonAppTests.m */; };
+		A012B34719F413DC00C938A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B34619F413DC00C938A7 /* AudioToolbox.framework */; };
+		A012B34919F413E100C938A7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B34819F413E100C938A7 /* CFNetwork.framework */; };
+		A012B34B19F413EC00C938A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B34A19F413EC00C938A7 /* CoreGraphics.framework */; };
+		A012B34D19F413F100C938A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B34C19F413F100C938A7 /* CoreLocation.framework */; };
+		A012B34F19F413FA00C938A7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B34E19F413FA00C938A7 /* libz.dylib */; };
+		A012B35119F4140300C938A7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35019F4140300C938A7 /* MobileCoreServices.framework */; };
+		A012B35319F4140F00C938A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35219F4140F00C938A7 /* QuartzCore.framework */; };
+		A012B35519F4141700C938A7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35419F4141700C938A7 /* Security.framework */; };
+		A012B35719F4142000C938A7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35619F4142000C938A7 /* StoreKit.framework */; };
+		A012B35919F4142900C938A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35819F4142900C938A7 /* SystemConfiguration.framework */; };
+		A012B35B19F4144B00C938A7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35A19F4144B00C938A7 /* Bolts.framework */; };
+		A012B35D19F4145300C938A7 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35C19F4145300C938A7 /* FacebookSDK.framework */; };
+		A012B35F19F4145F00C938A7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B35E19F4145F00C938A7 /* Parse.framework */; };
+		A012B36119F4146E00C938A7 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012B36019F4146E00C938A7 /* ParseFacebookUtils.framework */; };
+		A03ECE7319FA9CDB001E386A /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ECE7219FA9CDB001E386A /* UserLoginViewController.m */; };
+		A03ECE7619FA9CEC001E386A /* UserSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ECE7519FA9CEC001E386A /* UserSignupViewController.m */; };
+		A086263519F71D3700249BCE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A086263419F71D3700249BCE /* ThirdViewController.m */; };
+		A086263819F71D5500249BCE /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A086263719F71D5500249BCE /* FourthViewController.m */; };
+		A086263B19F71D7900249BCE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A086263A19F71D7900249BCE /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A012B33719F410DA00C938A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A012B31219F410DA00C938A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A012B31919F410DA00C938A7;
+			remoteInfo = HackatonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A012B31A19F410DA00C938A7 /* HackatonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackatonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A012B31E19F410DA00C938A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A012B31F19F410DA00C938A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A012B32119F410DA00C938A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A012B32219F410DA00C938A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A012B32419F410DA00C938A7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A012B32519F410DA00C938A7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A012B32719F410DA00C938A7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A012B32819F410DA00C938A7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A012B32B19F410DA00C938A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A012B32D19F410DA00C938A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A012B33019F410DA00C938A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A012B33619F410DA00C938A7 /* HackatonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A012B33B19F410DA00C938A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A012B33C19F410DA00C938A7 /* HackatonAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackatonAppTests.m; sourceTree = "<group>"; };
+		A012B34619F413DC00C938A7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A012B34819F413E100C938A7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A012B34A19F413EC00C938A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A012B34C19F413F100C938A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A012B34E19F413FA00C938A7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A012B35019F4140300C938A7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A012B35219F4140F00C938A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A012B35419F4141700C938A7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A012B35619F4142000C938A7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A012B35819F4142900C938A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A012B35A19F4144B00C938A7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A012B35C19F4145300C938A7 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		A012B35E19F4145F00C938A7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A012B36019F4146E00C938A7 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		A03ECE7119FA9CDB001E386A /* UserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserLoginViewController.h; path = ../UserLoginViewController.h; sourceTree = "<group>"; };
+		A03ECE7219FA9CDB001E386A /* UserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserLoginViewController.m; path = ../UserLoginViewController.m; sourceTree = "<group>"; };
+		A03ECE7419FA9CEC001E386A /* UserSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSignupViewController.h; path = ../UserSignupViewController.h; sourceTree = "<group>"; };
+		A03ECE7519FA9CEC001E386A /* UserSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSignupViewController.m; path = ../UserSignupViewController.m; sourceTree = "<group>"; };
+		A086263319F71D3700249BCE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		A086263419F71D3700249BCE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
+		A086263619F71D5500249BCE /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		A086263719F71D5500249BCE /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		A086263919F71D7900249BCE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		A086263A19F71D7900249BCE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A012B31719F410DA00C938A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A012B36119F4146E00C938A7 /* ParseFacebookUtils.framework in Frameworks */,
+				A012B35919F4142900C938A7 /* SystemConfiguration.framework in Frameworks */,
+				A012B35719F4142000C938A7 /* StoreKit.framework in Frameworks */,
+				A012B35519F4141700C938A7 /* Security.framework in Frameworks */,
+				A012B35319F4140F00C938A7 /* QuartzCore.framework in Frameworks */,
+				A012B35119F4140300C938A7 /* MobileCoreServices.framework in Frameworks */,
+				A012B35D19F4145300C938A7 /* FacebookSDK.framework in Frameworks */,
+				A012B35F19F4145F00C938A7 /* Parse.framework in Frameworks */,
+				A012B34F19F413FA00C938A7 /* libz.dylib in Frameworks */,
+				A012B34D19F413F100C938A7 /* CoreLocation.framework in Frameworks */,
+				A012B34B19F413EC00C938A7 /* CoreGraphics.framework in Frameworks */,
+				A012B35B19F4144B00C938A7 /* Bolts.framework in Frameworks */,
+				A012B34919F413E100C938A7 /* CFNetwork.framework in Frameworks */,
+				A012B34719F413DC00C938A7 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A012B33319F410DA00C938A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A012B31119F410DA00C938A7 = {
+			isa = PBXGroup;
+			children = (
+				A012B31C19F410DA00C938A7 /* HackatonApp */,
+				A012B33919F410DA00C938A7 /* HackatonAppTests */,
+				A012B31B19F410DA00C938A7 /* Products */,
+				A086263219F71D0200249BCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A012B31B19F410DA00C938A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A012B31A19F410DA00C938A7 /* HackatonApp.app */,
+				A012B33619F410DA00C938A7 /* HackatonAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A012B31C19F410DA00C938A7 /* HackatonApp */ = {
+			isa = PBXGroup;
+			children = (
+				A012B32119F410DA00C938A7 /* AppDelegate.h */,
+				A012B32219F410DA00C938A7 /* AppDelegate.m */,
+				A012B32419F410DA00C938A7 /* FirstViewController.h */,
+				A012B32519F410DA00C938A7 /* FirstViewController.m */,
+				A012B32719F410DA00C938A7 /* SecondViewController.h */,
+				A012B32819F410DA00C938A7 /* SecondViewController.m */,
+				A086263319F71D3700249BCE /* ThirdViewController.h */,
+				A086263419F71D3700249BCE /* ThirdViewController.m */,
+				A086263619F71D5500249BCE /* FourthViewController.h */,
+				A086263719F71D5500249BCE /* FourthViewController.m */,
+				A03ECE7719FAB8B1001E386A /* User Handle View Controllers */,
+				A012B32A19F410DA00C938A7 /* Main.storyboard */,
+				A012B32D19F410DA00C938A7 /* Images.xcassets */,
+				A012B32F19F410DA00C938A7 /* LaunchScreen.xib */,
+				A012B31D19F410DA00C938A7 /* Supporting Files */,
+			);
+			path = HackatonApp;
+			sourceTree = "<group>";
+		};
+		A012B31D19F410DA00C938A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A012B31E19F410DA00C938A7 /* Info.plist */,
+				A012B31F19F410DA00C938A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A012B33919F410DA00C938A7 /* HackatonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A012B33C19F410DA00C938A7 /* HackatonAppTests.m */,
+				A012B33A19F410DA00C938A7 /* Supporting Files */,
+			);
+			path = HackatonAppTests;
+			sourceTree = "<group>";
+		};
+		A012B33A19F410DA00C938A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A012B33B19F410DA00C938A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A03ECE7719FAB8B1001E386A /* User Handle View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A086263919F71D7900249BCE /* LoginViewController.h */,
+				A086263A19F71D7900249BCE /* LoginViewController.m */,
+				A03ECE7119FA9CDB001E386A /* UserLoginViewController.h */,
+				A03ECE7219FA9CDB001E386A /* UserLoginViewController.m */,
+				A03ECE7419FA9CEC001E386A /* UserSignupViewController.h */,
+				A03ECE7519FA9CEC001E386A /* UserSignupViewController.m */,
+			);
+			name = "User Handle View Controllers";
+			sourceTree = "<group>";
+		};
+		A086263219F71D0200249BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A012B36019F4146E00C938A7 /* ParseFacebookUtils.framework */,
+				A012B35E19F4145F00C938A7 /* Parse.framework */,
+				A012B35C19F4145300C938A7 /* FacebookSDK.framework */,
+				A012B35A19F4144B00C938A7 /* Bolts.framework */,
+				A012B35819F4142900C938A7 /* SystemConfiguration.framework */,
+				A012B35619F4142000C938A7 /* StoreKit.framework */,
+				A012B35419F4141700C938A7 /* Security.framework */,
+				A012B35219F4140F00C938A7 /* QuartzCore.framework */,
+				A012B35019F4140300C938A7 /* MobileCoreServices.framework */,
+				A012B34E19F413FA00C938A7 /* libz.dylib */,
+				A012B34C19F413F100C938A7 /* CoreLocation.framework */,
+				A012B34A19F413EC00C938A7 /* CoreGraphics.framework */,
+				A012B34819F413E100C938A7 /* CFNetwork.framework */,
+				A012B34619F413DC00C938A7 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A012B31919F410DA00C938A7 /* HackatonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A012B34019F410DA00C938A7 /* Build configuration list for PBXNativeTarget "HackatonApp" */;
+			buildPhases = (
+				A012B31619F410DA00C938A7 /* Sources */,
+				A012B31719F410DA00C938A7 /* Frameworks */,
+				A012B31819F410DA00C938A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackatonApp;
+			productName = HackatonApp;
+			productReference = A012B31A19F410DA00C938A7 /* HackatonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A012B33519F410DA00C938A7 /* HackatonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A012B34319F410DA00C938A7 /* Build configuration list for PBXNativeTarget "HackatonAppTests" */;
+			buildPhases = (
+				A012B33219F410DA00C938A7 /* Sources */,
+				A012B33319F410DA00C938A7 /* Frameworks */,
+				A012B33419F410DA00C938A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A012B33819F410DA00C938A7 /* PBXTargetDependency */,
+			);
+			name = HackatonAppTests;
+			productName = HackatonAppTests;
+			productReference = A012B33619F410DA00C938A7 /* HackatonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A012B31219F410DA00C938A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jlrodv;
+				TargetAttributes = {
+					A012B31919F410DA00C938A7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A012B33519F410DA00C938A7 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A012B31919F410DA00C938A7;
+					};
+				};
+			};
+			buildConfigurationList = A012B31519F410DA00C938A7 /* Build configuration list for PBXProject "HackatonApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A012B31119F410DA00C938A7;
+			productRefGroup = A012B31B19F410DA00C938A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A012B31919F410DA00C938A7 /* HackatonApp */,
+				A012B33519F410DA00C938A7 /* HackatonAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A012B31819F410DA00C938A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A012B32C19F410DA00C938A7 /* Main.storyboard in Resources */,
+				A012B33119F410DA00C938A7 /* LaunchScreen.xib in Resources */,
+				A012B32E19F410DA00C938A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A012B33419F410DA00C938A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A012B31619F410DA00C938A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03ECE7619FA9CEC001E386A /* UserSignupViewController.m in Sources */,
+				A086263819F71D5500249BCE /* FourthViewController.m in Sources */,
+				A012B32919F410DA00C938A7 /* SecondViewController.m in Sources */,
+				A086263519F71D3700249BCE /* ThirdViewController.m in Sources */,
+				A03ECE7319FA9CDB001E386A /* UserLoginViewController.m in Sources */,
+				A012B32319F410DA00C938A7 /* AppDelegate.m in Sources */,
+				A086263B19F71D7900249BCE /* LoginViewController.m in Sources */,
+				A012B32619F410DA00C938A7 /* FirstViewController.m in Sources */,
+				A012B32019F410DA00C938A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A012B33219F410DA00C938A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A012B33D19F410DA00C938A7 /* HackatonAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A012B33819F410DA00C938A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A012B31919F410DA00C938A7 /* HackatonApp */;
+			targetProxy = A012B33719F410DA00C938A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A012B32A19F410DA00C938A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A012B32B19F410DA00C938A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A012B32F19F410DA00C938A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A012B33019F410DA00C938A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A012B33E19F410DA00C938A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A012B33F19F410DA00C938A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A012B34119F410DA00C938A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HackatonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A012B34219F410DA00C938A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HackatonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A012B34419F410DA00C938A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackatonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackatonApp.app/HackatonApp";
+			};
+			name = Debug;
+		};
+		A012B34519F410DA00C938A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackatonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackatonApp.app/HackatonApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A012B31519F410DA00C938A7 /* Build configuration list for PBXProject "HackatonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A012B33E19F410DA00C938A7 /* Debug */,
+				A012B33F19F410DA00C938A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A012B34019F410DA00C938A7 /* Build configuration list for PBXNativeTarget "HackatonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A012B34119F410DA00C938A7 /* Debug */,
+				A012B34219F410DA00C938A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A012B34319F410DA00C938A7 /* Build configuration list for PBXNativeTarget "HackatonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A012B34419F410DA00C938A7 /* Debug */,
+				A012B34519F410DA00C938A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A012B31219F410DA00C938A7 /* Project object */;
+}
